@@ -12,12 +12,16 @@ h1{
     color:black;
     margin-left: 40%;
 }
+
 body{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     background-image: url("img2.png");
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: cover;
+    background-attachment: fixed;
     box-sizing: border-box;
 }
 
@@ -35,7 +39,7 @@ body{
 }
 
 .meniu ul{
-    display: inline-flex;
+    display: flex;
     list-style: none;
     color: white;
 }
@@ -90,4 +94,9 @@ display: none;
     background: transparent;
     border-radius: 0;
     text-align: left;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
